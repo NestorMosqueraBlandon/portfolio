@@ -1,9 +1,9 @@
 import Layout from "../components/Layout";
 import styles from '../styles/Home.module.css'
-import About from '../styles/About.module.css'
+import about from '../styles/About.module.css'
 import { useState } from "react";
 
-export default function about() {
+export default function About() {
 
     const frontend = [{
         name: 'ReactJs',
@@ -96,7 +96,7 @@ export default function about() {
             <main>
                 <section className={styles.section}>
                     <h2>My Flow</h2>
-                    <div className={About.flow}>
+                    <div className={about.flow}>
                         <button>
                             <span>1</span>
                             <p>RESEARCH</p>
@@ -128,18 +128,18 @@ export default function about() {
                 <section className={styles.section}>
                     <h2>Technologies</h2>
                     <div>
-                        <div className={About.buttons}>
-                            <button className={techState == "f"? About.techActive : ""} onClick={() => setTechState("f")} >FRONTEND</button>
-                            <button className={techState == "b"? About.techActive : ""} onClick={() => setTechState("b")} >BACKEND</button>
-                            <button className={techState == "d"? About.techActive : ""} onClick={() => setTechState("d")} >DATABASE</button>
+                        <div className={about.buttons}>
+                            <button className={techState == "f"? about.techActive : ""} onClick={() => setTechState("f")} >FRONTEND</button>
+                            <button className={techState == "b"? about.techActive : ""} onClick={() => setTechState("b")} >BACKEND</button>
+                            <button className={techState == "d"? about.techActive : ""} onClick={() => setTechState("d")} >DATABASE</button>
                         </div>
-                        <div className={About.technologies}>
+                        <div className={about.technologies}>
                             {techState == "f" ?
                                 (
                                     <>
                                         {frontend.map((t) => (
-                                            <div key={t.name} className={About.technologieItem}>
-                                                <img src={t.icon} className={t.invert ? About.invert : ""} width={t.width} alt="" />
+                                            <div key={t.name} className={about.technologieItem}>
+                                                <img src={t.icon} className={t.invert ? about.invert : ""} width={t.width} alt="" />
                                                 <span>{t.name}</span>
                                             </div>
                                         ))}
@@ -149,8 +149,8 @@ export default function about() {
                                 : techState == "b" ? (
                                     <>
                                         {backend.map((t) => (
-                                            <div key={t.name} className={About.technologieItem}>
-                                                <img src={t.icon} className={t.invert ? About.invert : ""} width={t.width} alt="" />
+                                            <div key={t.name} className={about.technologieItem}>
+                                                <img src={t.icon} className={t.invert ? about.invert : ""} width={t.width} alt="" />
                                                 <span>{t.name}</span>
                                             </div>
                                         ))}
@@ -159,8 +159,8 @@ export default function about() {
                                     :
                                     <>
                                         {database.map((t) => (
-                                            <div key={t.name} className={About.technologieItem}>
-                                                <img src={t.icon} className={t.invert ? About.invert : ""} width={t.width} alt="" />
+                                            <div key={t.name} className={about.technologieItem}>
+                                                <img src={t.icon} className={t.invert ? about.invert : ""} width={t.width} alt="" />
                                                 <span>{t.name}</span>
                                             </div>
                                         ))}
