@@ -1,0 +1,61 @@
+.projectText{
+    color: #F2F6FA;
+    padding: 1rem 2rem;
+    padding-bottom: 5rem;
+}
+
+.projectText p{
+    margin-top: 1rem;
+}
+
+.projectText h3{
+    margin-top: 1rem;
+}
+
+.projectText a{
+    position: relative;
+    margin-top: 2.5rem;
+    font-size: 1.4rem;
+    letter-spacing: .3rem;
+}
+
+
+.projectText a::after{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 1px;
+    width: 50%;
+    background: linear-gradient(97.54deg, #E7A28F 3.52%, #F9D6AC 41.89%, #FBFEFC 96.77%);
+    transition: .3s;
+}
+
+
+.projectText a:hover::after {
+    width: 100%;
+}
+
+
+.invert{
+    filter: invert(1);
+}
+
+.technologies{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.technologieItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.technologieItem span{
+    font-size: 1.2rem;
+    font-weight: 100;
+}

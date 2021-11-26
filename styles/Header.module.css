@@ -1,0 +1,29 @@
+.header{
+    color: #F2F6FA;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header p{
+    font-weight: 600;
+}
+
+.menu{
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.logo{
+    border-radius: 50rem;
+    width: 50px;
+}

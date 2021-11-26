@@ -1,0 +1,92 @@
+
+.invert{
+    filter: invert(1);
+}
+
+
+.technologies{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    color: #F2F6FA;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin-bottom: 4rem;
+}
+
+.technologieItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+
+.technologieItem span{
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #F2F6FA;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.buttons button{
+    color: #F2F6FA;
+    background: transparent;
+    border: none;
+    letter-spacing: .3rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.buttons .techActive{
+    position: relative;
+    transition: .5s;
+}
+
+.buttons .techActive::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 95%;
+    background: #3719CA;
+    z-index: -1;
+}
+
+.flow{
+    padding: 0 2rem;
+    display: flex;
+    gap: 2rem;
+    overflow-x: scroll;
+}
+
+.flow button{
+    background: transparent;
+    border: none;
+    color: #F2F6FA;
+    letter-spacing: .2rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, .3);
+}
+
+.flow button span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 4px;
+    border-radius: 50rem;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}

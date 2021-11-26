@@ -1,0 +1,121 @@
+.footer{
+    text-align: center;
+    color: #F2F6FA;
+}
+
+.footer p{
+    font-size: 1.2rem;
+}
+
+.networks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.networks li{
+    height: 40px;
+    width: 40px;
+    font-size: 2.5rem;
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContent{
+    padding: 2rem;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.footerContent h3{
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.footerContent p{
+    font-weight: 100;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+}
+
+.footerContent p:last-child{
+    margin-bottom: 3rem;
+    
+}
+
+.copy{
+    padding-bottom: 1.5rem;
+}
+
+.specialSection{
+    position: relative;
+    background: #3719CA;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #F2F6FA;
+    margin-bottom: 2rem;
+  }
+  
+  .specialSection::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(258.52deg,#3719ca -132.34%,rgba(55,25,202,0) 22.57%),linear-gradient(.788turn,hsla(17,68%,75%,0) 45.54%,hsla(17,68%,75%,.19) 130.68%),linear-gradient(3.27deg, #02021e 13.68%,#262147 142.62%);
+    border-radius: 50rem;
+    z-index: 1;
+  }
+  
+  .specialSection h2{
+    font-size: 4rem;
+    text-align: center;
+    line-height: 4rem;
+    z-index: 9;  
+  }
+  
+  .specialSection h2 span{
+    background-clip: text;
+    background-image: linear-gradient(97.54deg, #E7A28F 3.52%, #F9D6AC 41.89%, #FBFEFC 96.77%);
+    color: transparent;
+  }
+  
+  .specialSection a{
+    position: relative;
+    z-index: 9;
+    margin-top: 2rem;
+    font-weight: 300;
+    font-size: 1.4rem;
+    letter-spacing: .3rem;
+    padding: .5rem;
+  }
+  
+  .specialSection a::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: #3719CA;
+    z-index: -1;
+    transition: .3s;
+  }
+  
+  .specialSection a:hover::after{
+    height: 100%;
+  }

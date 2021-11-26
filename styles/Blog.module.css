@@ -1,0 +1,21 @@
+.blogItem{
+    width: 100%;
+    margin: 4rem auto;
+}
+
+.blogItem img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content{
+    color: #F2F6FA;
+    text-align: left;
+    padding:0 2rem ;
+}
+
+.content h2{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
