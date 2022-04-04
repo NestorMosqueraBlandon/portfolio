@@ -32,7 +32,6 @@ export default function About() {
 
     ]
 
-
     const backend = [{
         name: 'NodeJs',
         icon: 'https://api.iconify.design/bx/bxl-nodejs.svg',
