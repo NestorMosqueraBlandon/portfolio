@@ -18,7 +18,6 @@ export default function Home() {
           <ProjectItem tags="Legal, Privacy, Data, Accounting"  title="Best Usability and Performance by G2 Scoring" image="./img/work.png" tech={[{name: "AdobeXD", icon:"https://api.iconify.design/simple-icons/adobexd.svg", width: "30px"},{width:"50px", name: "NextJs", icon: "https://api.iconify.design/logos/nextjs.svg"}, {name: "NodeJs", icon: "https://api.iconify.design/logos/nodejs.svg", width: "50px"} ]} invert="true"  />
           <ProjectItem tags="B2C, Content Management, SAAS"  title="Tailored B2C Portal for Europe Bibliophile Audience" image="./img/work.png" tech={[{name: "AdobeXD", icon:"https://api.iconify.design/simple-icons/adobexd.svg", width: "30px"},{width:"50px", name: "NextJs", icon: "https://api.iconify.design/logos/nextjs.svg"}, {name: "NodeJs", icon: "https://api.iconify.design/logos/nodejs.svg", width: "50px"} ]} invert="true"  />
           </div>
-
         </section>
         <section className={styles.section}>
           <h2>Blog</h2>
