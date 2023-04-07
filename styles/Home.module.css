@@ -1,3 +1,25 @@
+.container{
+  width: min(1050px, 90%);
+  margin: 0 auto;
+}
+
+.container > h1{
+  padding-bottom: 2rem;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, .8);
+  text-align: center;
+  margin-top: 2rem;
+
+}
+
+
+.container > p{
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, .8);
+  text-align: center;
+}
+
 .heroTitle{
   text-align: center;
   background-clip: text;
@@ -19,7 +41,33 @@
   font-size: 3.5rem;
 }
 
+.projectSection{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+  gap: 2rem;
+}
 
+.hire{
+  padding-bottom: 8rem;
+}
+
+.hire > h4{
+  font-size: 2rem;
+  color: #F2F6FA;
+  margin-bottom: .5rem;
+  margin-top: 4rem;
+  opacity: .9;
+  
+}
+
+
+.hire > p{
+  font-size: 2rem;
+  color: #F2F6FA;
+  margin-bottom: 2rem;
+  opacity: .9;
+  
+}
 
 @media screen and (min-width: 800px) {
   .heroTitle{

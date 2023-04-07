@@ -1,10 +1,11 @@
 .header{
     color: #F2F6FA;
-    padding: 2rem;
+    padding-block-start: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    width: min(90%, 1050px);
+    margin-inline: auto;
 }
 
 .header p{

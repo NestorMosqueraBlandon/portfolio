@@ -6,7 +6,7 @@ export default function Layout({children}) {
     return (
         <div>
         <Head>
-        <title>Nestor Mosquera</title>
+        <title>Nestor - Web development and UX design expert</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />

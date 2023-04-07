@@ -1,6 +1,11 @@
+.projectItem{
+    width: 100%;
+    overflow: hidden;
+    border-radius: .5rem;
+}
 .projectText{
     color: #F2F6FA;
-    padding: 1rem 2rem;
+    padding: .5rem;
     padding-bottom: 5rem;
 }
 
