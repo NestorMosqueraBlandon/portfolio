@@ -120,9 +120,7 @@ export default function About() {
                             <span>6</span>
                             <p>SUPPORT</p>
                         </button>
-
                     </div>
-
                 </section>
                 <section className={styles.section}>
                     <h2>Technologies</h2>
